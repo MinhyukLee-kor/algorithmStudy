@@ -2,15 +2,13 @@ package algorithm20220516;
 
 import java.util.Scanner;
 
-public class Baekjoon_10926 {
+public class Codeup_1015 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		//백준 1단계 10번
-		
+		// 코드업 기초2 1015번
 		Scanner scan = new Scanner(System.in);
-		String id = scan.next();
-		System.out.println(id+"??!");
+		Float a = scan.nextFloat();
+		System.out.printf("%.2f", a);
 	}
-
 }
