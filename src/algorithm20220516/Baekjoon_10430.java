@@ -18,5 +18,6 @@ public class Baekjoon_10430 {
 		System.out.println(((a%c)+(b%c))%c);
 		System.out.println((a*b)%c);
 		System.out.println((a%c)*(b%c)%c);
+		//체감 난이도 : 1
 	}
 }

@@ -2,16 +2,16 @@ package algorithm20220516;
 
 import java.util.Scanner;
 
-public class Baekjoon_10926 {
+public class Codeup_1043 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		//백준 1단계 10번
-		
+		// 코드업 기초2 1043번
 		Scanner scan = new Scanner(System.in);
-		String id = scan.next();
-		System.out.println(id+"??!");
-		//체감 난이도 : 1
+		int a = scan.nextInt();
+		int b = scan.nextInt();
+		System.out.println(a%b);
+		
+		// 체감 난이도 : 2
 	}
-
 }

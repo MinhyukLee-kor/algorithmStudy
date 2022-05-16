@@ -15,5 +15,7 @@ public class Codeup_1019 {
 		int c = Integer.parseInt(array[2]);
 		
 		System.out.printf("%04d.%02d.%02d", a,b,c);		//%02d 2칸을 사용해 출력 , %04d 안할경우 99년이 0099로안나옴
+		
+		//체감 난이도 : 5
 	}
 }

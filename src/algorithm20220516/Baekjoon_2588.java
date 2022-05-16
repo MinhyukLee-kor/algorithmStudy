@@ -17,6 +17,7 @@ public class Baekjoon_2588 {
 		System.out.println(a*(b/100));
 		System.out.println(a*b);
 		
+		//체감 난이도 : 1
 	}
 
 }

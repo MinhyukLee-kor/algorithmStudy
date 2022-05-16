@@ -12,5 +12,6 @@ public class Codeup_1013 {
 		a = scan.nextInt();
 		b = scan.nextInt();
 		System.out.println(a+" "+b);
+		//체감 난이도 : 1
 	}
 }

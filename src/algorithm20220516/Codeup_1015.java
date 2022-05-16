@@ -10,5 +10,6 @@ public class Codeup_1015 {
 		Scanner scan = new Scanner(System.in);
 		Float a = scan.nextFloat();
 		System.out.printf("%.2f", a);
+		//체감 난이도 : 2
 	}
 }
