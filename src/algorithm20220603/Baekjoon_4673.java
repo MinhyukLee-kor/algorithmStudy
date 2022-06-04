@@ -1,10 +1,9 @@
 package algorithm20220603;
 
-import java.util.Scanner;
 
 public class Baekjoon_4673 {
 
-	public static int d(int n) {
+	static int d(int n) {
 		
 		int sum = n;	//ex 35
 		
@@ -17,13 +16,18 @@ public class Baekjoon_4673 {
 	
 	public static void main(String[] args) {
 		// 백준 5-2 4683번
-		Scanner scan = new Scanner(System.in);
-		int[] arr = new int[10000];
+		int[] arr = new int[10001];
 		
 		for(int i=1;i<=10000;i++) {
 			int number = d(i);
-			
-			
+			if(number<10001) {
+				arr[number] = 1;
+			}
+		}
+		for(int i=1;i<10001;i++) {
+			if(arr[i]==0) {
+				System.out.println(i);
+			}
 		}
 
 	}
