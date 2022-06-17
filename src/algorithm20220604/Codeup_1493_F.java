@@ -2,7 +2,7 @@ package algorithm20220604;
 
 import java.util.Scanner;
 
-public class Codeup_1493 {
+public class Codeup_1493_F {
 
 	public static void main(String[] args) {
 		// 코드업 기초5-3 1493번

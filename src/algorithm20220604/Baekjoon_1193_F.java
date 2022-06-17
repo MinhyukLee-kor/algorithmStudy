@@ -1,6 +1,6 @@
 package algorithm20220604;
 
-public class Baekjoon_1193 {
+public class Baekjoon_1193_F {
 
 	public static void main(String[] args) {
 		// 백준 7-3 1193번

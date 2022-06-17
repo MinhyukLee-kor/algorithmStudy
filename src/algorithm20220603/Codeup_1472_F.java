@@ -2,10 +2,10 @@ package algorithm20220603;
 
 import java.util.Scanner;
 
-public class Codeup_1484 {
+public class Codeup_1472_F {
 
 	public static void main(String[] args) {
-		// 기초5-3 코드업 1484번
+		// 기초5-3 코드업 1472번
 		Scanner scan = new Scanner(System.in);
 		
 		int n = scan.nextInt();
@@ -13,7 +13,8 @@ public class Codeup_1484 {
 		int total = n*m;
 
 		int[][] arr = new int[n][m];
-
+		
+		//흠..
 	}
 
 }
