@@ -9,7 +9,7 @@ public class Codeup_1524 {
 		Scanner scan = new Scanner(System.in);
 		
 		int[][] arr = new int[9][9];
-		
+			//찾아보니 [11][11] 로만들어서 테두리를 강제로 만들면 하드코딩안해도됨..
 		for(int i=0;i<9;i++) {
 			for(int j=0;j<9;j++) {
 				arr[i][j]=scan.nextInt();

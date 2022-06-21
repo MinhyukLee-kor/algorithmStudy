@@ -12,11 +12,11 @@ public class Baekjoon_2839 {
 		int count = 0;
 		
 		while(true) {
-			if(n%5==0) {
+			if(n%5==0) {	//5로 나뉘면 바로 봉지수 출력
 				count = count + n/5;
 				System.out.println(count);
 				break;
-			} else {
+			} else {	//5로 안나뉠경우 봉지수증가시키면서 3kg씩 감소
 				n = n-3;
 				count++;
 			}
