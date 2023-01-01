@@ -2,7 +2,7 @@ package withCarzyboys;
 
 import java.util.Scanner;
 
-public class Main {
+public class CodeUp1099 {
     // 왜 또 에러???
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
